@@ -1,0 +1,7 @@
+name: TimeVote
+main: dev.thesourcecode.vote.TimeVoter
+api-version: 1.13
+version: ${project.version}
+commands:
+  timevote:
+    aliases: [tv]

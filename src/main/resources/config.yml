@@ -1,0 +1,6 @@
+# time-to-vote is how long the players have to vote in seconds
+# vote-delay is how long between votes (in minutes)
+
+time-to-vote: 15
+vote-delay: 10
+disable-command: true
