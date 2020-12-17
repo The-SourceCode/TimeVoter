@@ -32,7 +32,7 @@ public class TimeVoteCommand implements CommandExecutor {
                         player.sendMessage(ChatColor.GREEN + "[TV] " + ChatColor.GRAY + "You have voted Yes");
                         plugin.getServer().broadcastMessage(ChatColor.GREEN + "[TV] " + player.getName() + ChatColor.GRAY + " voted " + ChatColor.GREEN + "Yes");
                         plugin.getYesVote().add(player.getUniqueId());
-                    }else if(args[0].equalsIgnoreCase("no")){
+                    }else if(args[0].equalsIgnoreCase("yes")){
                         player.sendMessage(ChatColor.RED + "[TV] " + ChatColor.GRAY + "You have voted No");
                         plugin.getServer().broadcastMessage(ChatColor.RED + "[TV] " + player.getName() + ChatColor.GRAY + " voted " + ChatColor.RED + "No");
                         plugin.getNoVote().add(player.getUniqueId());
